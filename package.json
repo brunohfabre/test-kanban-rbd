@@ -1,0 +1,32 @@
+{
+  "name": "kanban-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hello-pangea/dnd": "^16.2.0",
+    "@siakit/button": "^0.0.8",
+    "@siakit/card": "^0.0.6",
+    "@siakit/core": "^0.0.19",
+    "@siakit/heading": "^0.0.8",
+    "@siakit/layout": "^0.0.9",
+    "@siakit/text": "^0.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@siakit/eslint-config": "^0.0.11",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.33.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
