@@ -2,6 +2,7 @@ import { useContext } from 'react'
 
 import { Draggable } from '@hello-pangea/dnd'
 import { Card } from '@siakit/card'
+import { Flex } from '@siakit/layout'
 
 import { KanbanContext } from './context'
 
@@ -22,14 +23,14 @@ export function Item({ id, index }: TaskProps) {
       isDragDisabled={isDragDisabled}
     >
       {(provided) => (
-        <Card
-          padding={12}
+        <Flex
+          ref={provided.innerRef}
           {...provided.draggableProps}
           {...provided.dragHandleProps}
-          ref={provided.innerRef}
+          padding="0 0 8px"
         >
-          {item.content}
-        </Card>
+          <Card padding={12}>{item.content}</Card>
+        </Flex>
       )}
     </Draggable>
   )
