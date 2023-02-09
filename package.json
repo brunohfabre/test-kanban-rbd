@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "@hello-pangea/dnd": "^16.2.0",
+    "@radix-ui/react-scroll-area": "^1.0.2",
     "@siakit/button": "^0.0.8",
     "@siakit/card": "^0.0.6",
     "@siakit/core": "^0.0.19",
     "@siakit/heading": "^0.0.8",
     "@siakit/layout": "^0.0.9",
+    "@siakit/shimmer": "^0.0.6",
     "@siakit/text": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
