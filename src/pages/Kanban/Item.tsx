@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import { Draggable } from '@hello-pangea/dnd'
 import { Card } from '@siakit/card'
 import { Flex } from '@siakit/layout'
+import { Text } from '@siakit/text'
 
 import { KanbanContext } from './context'
 
@@ -29,7 +30,11 @@ export function Item({ id, index }: TaskProps) {
           {...provided.dragHandleProps}
           padding="0 0 8px"
         >
-          <Card padding={12}>{item.content}</Card>
+          <Card padding={6}>
+            <Flex padding={6}>
+              <Text>{item.content}</Text>
+            </Flex>
+          </Card>
         </Flex>
       )}
     </Draggable>
