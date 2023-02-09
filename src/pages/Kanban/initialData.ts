@@ -81,7 +81,7 @@ export const initialData = {
   columns: {
     'column-1': {
       id: 'column-1',
-      title: 'To do',
+      title: 'Column 1',
       items: [
         'item-1',
         'item-2',
@@ -99,27 +99,37 @@ export const initialData = {
     },
     'column-2': {
       id: 'column-2',
-      title: 'In progress',
+      title: 'Column 2',
       items: [],
     },
     'column-3': {
       id: 'column-3',
-      title: 'Done',
+      title: 'Column 3',
       items: [],
     },
     'column-4': {
       id: 'column-4',
-      title: 'Done',
+      title: 'Column 4',
       items: [],
     },
     'column-5': {
       id: 'column-5',
-      title: 'Done',
+      title: 'Column 5',
       items: [],
     },
     'column-6': {
       id: 'column-6',
-      title: 'Done',
+      title: 'Column 6',
+      items: [],
+    },
+    'column-7': {
+      id: 'column-7',
+      title: 'Column 7',
+      items: [],
+    },
+    'column-8': {
+      id: 'column-8',
+      title: 'Column 8',
       items: [],
     },
   },
@@ -130,5 +140,7 @@ export const initialData = {
     'column-4',
     'column-5',
     'column-6',
+    'column-7',
+    'column-8',
   ],
 } as KanbanData
