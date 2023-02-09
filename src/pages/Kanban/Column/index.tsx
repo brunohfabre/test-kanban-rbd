@@ -61,7 +61,9 @@ export function Column({ id }: ColumnProps) {
             padding="0 8px"
             ref={provided.innerRef}
             {...provided.droppableProps}
-          />
+          >
+            {provided.placeholder}
+          </Flex>
         )}
       </Droppable>
     </Flex>
