@@ -33,7 +33,15 @@ export function Column({ id }: ColumnProps) {
   const column = columns[id]
 
   return (
-    <Flex direction="column" width={320} css={{ backgroundColor: '$gray3' }}>
+    <Flex
+      direction="column"
+      width={320}
+      css={{
+        backgroundColor: '$gray3',
+        borderTopLeftRadius: 8,
+        borderTopRightRadius: 8,
+      }}
+    >
       <Flex
         height={32}
         padding="0 8px"
